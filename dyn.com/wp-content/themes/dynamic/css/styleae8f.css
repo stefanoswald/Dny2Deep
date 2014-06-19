@@ -65,9 +65,9 @@ button:hover{cursor:pointer}
 
 /* ----------------- Header ----------------- */
 #header-wrapper {background:rgba(244,244,244,.97);position:fixed;width:100%;z-index:9999;top:0;height:60px;border-bottom:solid 1px #ccc}
-#header-logo{background:url(http://dyn.com/wp-content/themes/dynamic/images/sprites/dyn-sprite.png) 0 0 no-repeat;float:left;text-indent:-999em;margin:8px 30px 0 0;width:106px;height:41px}
+#header-logo{background:url(http://dyn.com/wp-content/themes/dynamic/images/sprites/dyn-sprite.png) 0 0 no-repeat;float:left;text-indent:-999em;margin:8px 0px 0 0;width:106px;height:41px}
 #header #account-links{margin-top:15px;width:auto}
-#signin, #about{color:#000;float:left;font-size:11px;padding:0 10px;text-transform:uppercase;text-align:center;min-width:45px;height:25px;line-height:22px}
+#signin, #about{color:#000;float:left;font-size:11px;padding:0 10px;text-transform:uppercase;text-align:center;min-width:45px;height:25px;line-height:32px}
 .smartling-de #signin, .smartling-de #about{min-width:0}
 #mobile-nav, #bottom-nav-wrapper, .menu-header ul ul{display:none}
 .menu-header{float:left;font-size:14px;font-family:"Trebuchet MS","Lucida Grande",Tahoma,Arial,sans-serif}
@@ -892,10 +892,10 @@ body{min-width:inherit}
 #header-wrapper{min-height:60px;height:auto;box-shadow: 0 0 15px #222;margin:0 auto;position:relative}
 #header-wrapper .menu-header, #header-wrapper #lang-dropdown{display:none}
 #header #account-links{margin-top:35px}
-#header #header-logo{margin:8px 0 0 10px}
+#header #header-logo{position:absolute;top:0px;right:20px}
 #header{min-height:60px}
 #header #cse-search-box{position:absolute;top:0;right:5px}
-#header #mobile-nav{display:inline;content: "≡";font-size: 1.4em;text-transform: uppercase;color:#666;position:absolute;top:35px;right:5px}
+#header #mobile-nav{display:block;content: "≡";font-size: 1.4em;text-transform: uppercase;color:#666;margin:8px 0 0 0px}<!-- LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOGGGGGGGGGGGGGGGGOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  -->
 #signin, #about{display:none}
 #account-links{top:0;right:0}
 #account-links #cart{display:block;float:none}
